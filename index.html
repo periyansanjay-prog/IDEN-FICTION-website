@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IDEN-FICTION — Wear Your Identity</title>
+  <meta name="description" content="IDEN-FICTION — oversized heavyweight premium streetwear. Wear your identity.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement">FREE SHIPPING ON ORDERS OVER ₹2,999</div>
+
+  <header class="nav">
+    <a class="wordmark" href="#top">IDEN-FICTION</a>
+    <nav>
+      <a href="#shop">SHOP</a>
+      <a href="#story">STORY</a>
+      <a href="#size">SIZE GUIDE</a>
+    </nav>
+    <button class="bag" id="bagButton">BAG <span id="bagCount">0</span></button>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">DROP 01 / 2026</p>
+        <h1>WEAR<br>YOUR<br>IDENTITY.</h1>
+        <p class="hero-text">Heavyweight essentials for people who don't dress to fit in.</p>
+        <a class="button button-dark" href="#shop">SHOP THE DROP</a>
+      </div>
+      <div class="hero-art">
+        <div class="art-label">I—F</div>
+        <div class="art-word">NONCHALANT</div>
+        <div class="art-word art-small">WEIRD / SIDE QUESTER</div>
+      </div>
+    </section>
+
+    <section class="ticker">
+      <div>IDENTITY / INDIVIDUALITY / MINIMALISM / STREETWEAR / EXPRESSION /</div>
+    </section>
+
+    <section class="section" id="shop">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">01 / THE DROP</p>
+          <h2>CORE PIECES</h2>
+        </div>
+        <p class="muted">OVERSIZED / HEAVYWEIGHT / LIMITED</p>
+      </div>
+
+      <div class="products">
+        <article class="product">
+          <div class="product-image image-black">
+            <span>NONCHALANT</span>
+            <small>IDEN-FICTION / 001</small>
+          </div>
+          <div class="product-info">
+            <div><h3>NONCHALANT CREW</h3><p>Heavyweight oversized sweatshirt</p></div>
+            <strong>₹2,499</strong>
+          </div>
+          <button class="add" data-name="NONCHALANT CREW" data-price="2499">ADD TO BAG</button>
+        </article>
+
+        <article class="product">
+          <div class="product-image image-offwhite">
+            <span>WEIRD</span>
+            <small>IDEN-FICTION / 002</small>
+          </div>
+          <div class="product-info">
+            <div><h3>WEIRD CREW</h3><p>Heavyweight oversized sweatshirt</p></div>
+            <strong>₹2,499</strong>
+          </div>
+          <button class="add" data-name="WEIRD CREW" data-price="2499">ADD TO BAG</button>
+        </article>
+
+        <article class="product">
+          <div class="product-image image-charcoal">
+            <span>SIDE QUESTER</span>
+            <small>IDEN-FICTION / 003</small>
+          </div>
+          <div class="product-info">
+            <div><h3>SIDE QUESTER HOODIE</h3><p>Heavyweight oversized hoodie</p></div>
+            <strong>₹2,999</strong>
+          </div>
+          <button class="add" data-name="SIDE QUESTER HOODIE" data-price="2999">ADD TO BAG</button>
+        </article>
+      </div>
+    </section>
+
+    <section class="manifesto" id="story">
+      <p class="eyebrow">02 / THE IDEA</p>
+      <h2>YOU ARE NOT A TYPE.<br>YOU ARE THE TYPE.</h2>
+      <p>We make understated, heavyweight pieces built around the words, moods and identities people carry every day.</p>
+    </section>
+
+    <section class="size-section" id="size">
+      <div>
+        <p class="eyebrow">03 / FIT</p>
+        <h2>OVERSIZED<br>BY DESIGN.</h2>
+      </div>
+      <div class="size-copy">
+        <p>Drop shoulders. Relaxed proportions. Room through the body and sleeves.</p>
+        <table>
+          <tr><th>SIZE</th><th>CHEST</th><th>LENGTH</th></tr>
+          <tr><td>S</td><td>23"</td><td>27"</td></tr>
+          <tr><td>M</td><td>24"</td><td>28"</td></tr>
+          <tr><td>L</td><td>25"</td><td>29"</td></tr>
+          <tr><td>XL</td><td>26"</td><td>30"</td></tr>
+        </table>
+        <p class="note">*Measurements are placeholders for the first production tech pack and should be replaced with your final garment measurements.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-brand">IDEN-FICTION</div>
+    <div class="footer-links">
+      <a href="#">INSTAGRAM</a>
+      <a href="mailto:hello@iden-fiction.com">CONTACT</a>
+      <a href="#">SHIPPING</a>
+      <a href="#">RETURNS</a>
+    </div>
+    <p>© 2026 IDEN-FICTION. WEAR YOUR IDENTITY.</p>
+  </footer>
+
+  <div class="bag-drawer" id="bagDrawer" aria-hidden="true">
+    <div class="drawer-head"><span>YOUR BAG</span><button id="closeBag">CLOSE</button></div>
+    <div id="bagItems" class="bag-items"><p class="empty">Your bag is empty.</p></div>
+    <div class="drawer-total"><span>TOTAL</span><strong id="bagTotal">₹0</strong></div>
+    <button class="button button-dark checkout" id="checkout">CHECKOUT</button>
+    <p class="checkout-note">Demo storefront. Connect a payment/order system when you're ready to sell.</p>
+  </div>
+  <div class="overlay" id="overlay"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
